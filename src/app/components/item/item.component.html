@@ -1,0 +1,9 @@
+<div class="item-container">
+  <div class="name">{{ item.name }}</div>
+  <div class="region">{{ item.region }}</div>
+  <div class="scores-container row">
+    <div class="score">{{ item.exam | number: '1.2-2' }}</div>
+    <div class="score">{{ item.quiz | number: '1.2-2' }}</div>
+    <div class="score">{{ item.homework | number: '1.2-2' }}</div>
+  </div>
+</div>
